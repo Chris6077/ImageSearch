@@ -1,3 +1,4 @@
+// I am using the bing image search api v7.0!
 const express = require('express');
 const app = express();
 var config = require('./config');
