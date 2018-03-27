@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<!-- search bar from https://codepen.io/anon/pen/rOLrXm-->
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  			<title>Image Search API</title>
+  			<link rel="stylesheet" href="/style.css"/>
+  			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <!-- Your web-app is https, so your scripts need to be too -->
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+                integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+                crossorigin="anonymous"></script>
+        <script src="/client.js"></script>
+        <link rel="icon" href="https://raw.githubusercontent.com/Chris6077/Portfolio/master/images/logo.png">
+			<style type="text/css">
+			</style>
+		</head>
+		<body>
+        <header>
+          <h1>
+            Image Search
+          </h1>
+        </header>
+    		<div class="container">
+    			<h2>Example input:</h2>
+          <p>https://searchimgs.glitch.me/search/kitten</p>
+          <h2>This input will return an array of 10 objects following this schema:</h2>
+          <p>{ "alt": "Alt text of image", "url": "Original url of image", "thumbnail": "Bing thumbnail", "context": "Image context" }</p>
+          <h2>
+            You can see the 20 past searches here:
+          </h2>
+          <p id="last">
+            <a href="/history">searchimgs.glitch.me/history</a>
+          </p>
+  			</div>
+  			<div id="footer">
+          <div class="col-md-8">
+            <span>Copyright &copy; 2018 Christian Winkler</span>
+          </div>
+        </div>
+		</body>
+</html>

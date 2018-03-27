@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+  margin: 0;
+}
+html {
+  width: 1080px;
+  margin: 0 auto;
+}
+body {
+  background-color: #242424;
+}
+.by {
+  text-align: right;
+  color: #DDDDDD;
+  background-color: #242424;
+  border-radius: 5px;
+  padding: 2.5%;
+  height: 50px;
+  margin: 5% auto;
+}
+.container {
+  background-color: #434343;
+  border-radius: 5px;
+  padding: 2.5%;
+  height: 100%;
+  margin: 5% auto;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 7.5%;
+  text-align: center;
+}
+.col-md-8 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: block;
+  margin-top: 15%;
+}
+h1 {
+  font-family: "Pacifico";
+  color: #DDDDDD;
+}
+h2 {
+  font-family: "Montserrat";
+  color: #DDDDDD;
+  margin: 1.5%;
+}
+p {
+  background-color: #DD4343;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+header {
+  text-align: center;
+  padding-top: 10%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#last {
+  margin-bottom: 0%;
+}
